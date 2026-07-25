@@ -224,13 +224,12 @@ ml-project-2-titanic-pipeline/
 
 
 
- **Матрица ошибок:**
+**Матрица ошибок (Confusion Matrix):**
 
-
-
-[[92 18]
-
-[21 48]]
+|                 | Предсказано: 0 (погиб) | Предсказано: 1 (выжил) |
+| :-------------- | :--------------------- | :--------------------- |
+| **Истина: 0 (погиб)**  | 92                     | 18                     |
+| **Истина: 1 (выжил)**  | 21                     | 48                     |
 
 
 
@@ -259,7 +258,7 @@ ml-project-2-titanic-pipeline/
 
 1. Клонируйте репозиторий:
 
-git clone https://github.com/ваш-username/ml-project-2-titanic-pipeline.git  
+git clone https://github.com/SKorol-ML/ML-project-2-titanic-pipeline 
 cd ml-project-2-titanic-pipeline
 
 
